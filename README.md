@@ -81,7 +81,7 @@ sudo ./build/examples/identify
 
 This will show the NVMe disks (controllers) along with their addresses, which will resemble `0000:2c:00.0`. The address list in [src/column_reader.cpp](src/column_reader.cpp) must be updated to reflect the addresses that will be used.
 
-In addition, if you have a different number of drives than the reference configuration, then you must update `NUM_CONTROLLERS` in [/filecoin_pc1/src/sealing/constants.hpp](/filecoin_pc1/src/sealing/constants.hpp)
+In addition, if you have a different number of drives than the reference configuration, then you must update `NUM_CONTROLLERS` in [/filecoin_pc1/src/sealing/constants.hpp](/filecoin_pc1/blob/main/src/sealing/constants.hpp)
 
 **The drive configuration for PC2 must match PC1 for correct functionality.**
 
